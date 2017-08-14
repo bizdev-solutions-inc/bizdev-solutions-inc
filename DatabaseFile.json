@@ -1,0 +1,43 @@
+{
+  "recipes": 
+  {
+      "R - Test 1": {
+      "mealtype": "Breakfast",
+      "cuisine": "Italian",
+      "instructions": "Cook the food!"
+    },
+      "R - Test 2": {
+      "mealtype": "Breakfast",
+      "cuisine": "Italian",
+      "instructions": "Boil it!"
+    }
+  },
+  "ingredients": {
+      "I - Test 1" :{
+      "type": "meat"
+    },
+      "I - Test 2" :{
+      "type": "fruit"
+    }
+  },
+  "recipe_ingredients": 
+    {
+      "R - Test 1": {
+         "I - Test 1":"I - Test 1",
+         "I - Test 2":"I - Test 2"
+      },
+      "R - Test 2": {
+         "I - Test 2":"I - Test 2"
+      }
+    },
+	"ingredient_recipes": 
+    {
+      "I - Test 1": {
+         "R - Test 1":"R - Test 1"
+      },
+      "I - Test 2": {
+         "R - Test 1":"R - Test 1",
+		 "R - Test 2":"R - Test 2"
+      }
+    }
+}
